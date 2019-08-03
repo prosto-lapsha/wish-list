@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "wish-list",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "webpack-dev-server --mode development"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/prosto-lapsha/wish-list.git"
@@ -16,5 +18,22 @@
   "bugs": {
     "url": "https://github.com/prosto-lapsha/wish-list/issues"
   },
-  "homepage": "https://github.com/prosto-lapsha/wish-list"
+  "homepage": "https://github.com/prosto-lapsha/wish-list",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.1.0",
+    "file-loader": "^4.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
 }
