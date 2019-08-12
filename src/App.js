@@ -1,12 +1,12 @@
-import React, { Component} from "react";
-import "./App.css";
+import React, { Component} from 'react';
+import './colors.css';
+import './reset.css';
+import { MainPage } from './pages/main';
 
 class App extends Component{
     render(){
         return(
-            <div className="App">
-                <h1> Hello, World! </h1>
-            </div>
+            <MainPage />
         );
     }
 }
